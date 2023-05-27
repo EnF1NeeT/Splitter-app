@@ -1,0 +1,204 @@
+@import url(https://fonts.googleapis.com/css?family=Space+Mono:regular,italic,700,700italic);
+* {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5e7a7d;
+}
+body {
+  background-color: #c5e4e7;
+}
+p {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+p span {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 19px;
+  color: #7f9d9f;
+}
+h1 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 14px;
+  color: #5e7a7d;
+}
+h2 {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 71px;
+  text-align: right;
+  letter-spacing: -1px;
+  color: #26c2ae;
+}
+label {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5e7a7d;
+}
+.bill-input {
+  background: #f3f9fa;
+  border-radius: 5px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: right;
+  color: #00474b;
+  border: 0px solid #26c2ae;
+}
+.bill-input:focus {
+  box-shadow: none;
+  background: #f3f9fa;
+  border: 2px solid #26c2ae;
+  border-radius: 5px;
+  border-left: 0;
+}
+.input-group:focus-within .input-group-text {
+  border: 2px solid #26c2ae;
+  border-right: none;
+}
+.calculator-body {
+  max-width: 920px;
+  padding: 32px 32px 32px 48px;
+  background-color: #ffffff;
+  box-shadow: 0px 32px 43px rgba(79, 166, 175, 0.200735);
+  border-radius: 25px;
+}
+.btn-tip {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #00474b;
+  --bs-btn-border-color: #00474b;
+  --bs-btn-hover-color: #00474b;
+  --bs-btn-hover-bg: #9fe8df;
+  --bs-btn-hover-border-color: #9fe8df;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #00474b;
+  --bs-btn-active-bg: #9fe8df;
+  --bs-btn-active-border-color: #9fe8df;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #00474b;
+  --bs-btn-disabled-border-color: #00474b;
+  min-width: 117px;
+  padding: 6px 14px;
+  border-radius: 5px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  border: none;
+}
+.tip-input {
+  width: 117px;
+  height: 48px;
+  padding: 6px 13px;
+  background: #f3f9fa;
+  border: none;
+  border-radius: 5px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #547878;
+}
+.tip-input::placeholder {
+  color: #547878;
+}
+.tip-input:focus {
+  outline: none;
+  border: 2px solid #26c2ae;
+}
+.input-group-text {
+  background: #f3f9fa;
+  border: none;
+  border-radius: 5px;
+  color: #9ebbbd;
+  font-size: 22px;
+}
+
+.bill-content {
+  padding: 40px;
+  background: #00474b;
+  border-radius: 15px;
+}
+.btn-reset {
+  --bs-btn-color: #00474b;
+  --bs-btn-bg: #26c2ae;
+  --bs-btn-border-color: #26c2ae;
+  --bs-btn-hover-color: #00474b;
+  --bs-btn-hover-bg: #9fe8df;
+  --bs-btn-hover-border-color: #00474b;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #00474b;
+  --bs-btn-active-bg: #9fe8df;
+  --bs-btn-active-border-color: #9fe8df;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #00474b;
+  --bs-btn-disabled-bg: #26c2ae;
+  --bs-btn-disabled-border-color: #26c2ae;
+  width: 100%;
+  padding: 6px 14px;
+  border-radius: 5px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  border: none;
+}
+.bill-content {
+  gap: 122px;
+}
+.error {
+  display: none;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #e17457;
+}
+
+@media (max-width: 767.98px) {
+  .container {
+    padding: 0;
+  }
+  .calculator-body {
+    max-width: 920px;
+    padding: 32px;
+  }
+  .bill-content {
+    padding: 37px 24px 24px 24px;
+    background: #00474b;
+    border-radius: 15px;
+  }
+}
